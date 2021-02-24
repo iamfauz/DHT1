@@ -1,0 +1,7 @@
+syntax = "proto3";
+package protobuf;
+option go_package = "pb/protobuf";
+
+message ReqPayload {
+    fixed32 studentID = 1;
+}
